@@ -25,7 +25,8 @@ func main() {
 
 	for suit := range suits {
 		for rank := range ranks {
-			fmt.Printf("%c %c\n", suit, rank)
+			fmt.Printf("%c %c\t", suit, rank)
 		}
+		fmt.Printf("\n")
 	}
 }
